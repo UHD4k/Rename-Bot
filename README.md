@@ -32,7 +32,7 @@
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/AshutoshGoswami24/Rename-Bot">
+<a href="https://heroku.com/deploy?template=https://github.com/UHD4k/Rename-Bot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
