@@ -14,7 +14,7 @@ async def start(client, message):
         [InlineKeyboardButton('🌸 Uᴘᴅᴀᴛᴇs', url='https://t.me/PMIOfficials'),
         InlineKeyboardButton('🦋 Mᴏᴠɪᴇs Gʀᴏᴜᴘ', url='https://t.me/Tn69LinksMovies')],
         [InlineKeyboardButton('✌️ Aʙᴏᴜᴛ', callback_data='about'),
-        InlineKeyboardButton('🎁 Hᴇʟᴘ', callback_data='help')],
+        InlineKeyboardButton('🌹 Hᴇʟᴘ', callback_data='help')],
         [InlineKeyboardButton("👨🏻‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ", url='https://t.me/Cute_Boy_Saravana')]
     ])
     if Config.START_PIC:
@@ -34,7 +34,7 @@ async def cb_handler(client, query: CallbackQuery):
                 [InlineKeyboardButton('🌸 Uᴘᴅᴀᴛᴇs', url='https://t.me/PMIOfficials'),
                 InlineKeyboardButton('🦋 Mᴏᴠɪᴇs Gʀᴏᴜᴘ', url='https://t.me/Tn69LinksMovies')],
                 [InlineKeyboardButton('✌️ Aʙᴏᴜᴛ', callback_data='about'),
-                InlineKeyboardButton('🎁 Hᴇʟᴘ', callback_data='help')],
+                InlineKeyboardButton('🌹 Hᴇʟᴘ', callback_data='help')],
                 [InlineKeyboardButton("👨🏻‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ", url='https://t.me/Cute_Boy_Saravana')]
             ])
         )
@@ -75,7 +75,7 @@ async def cb_handler(client, query: CallbackQuery):
 async def donate(client, message):
 	text = Txt.DONATE_TXT
 	keybord = InlineKeyboardMarkup([
-        			[InlineKeyboardButton("👨🏻‍💻 Aᴅᴍɪɴ",url = "https://t.me/Cute_Boy_Saravana"), 
+        			[InlineKeyboardButton("🎬 Mᴏᴠɪᴇs Rᴇǫᴜᴇsᴛ",url = "https://t.me/Cute_Boy_Saravana"), 
         			InlineKeyboardButton("✖️ Cʟᴏsᴇ",callback_data = "close") ]])
 	await message.reply_text(text = text,reply_markup = keybord)
 
