@@ -42,43 +42,43 @@ class Txt(object):
 #ʀᴀᴘᴏ https://github.com/AshutoshGoswami24/Rename-Bot
     ABOUT_TXT = """
 ╭───────────────⍟
-├<b>🤖 My Name</b> : {}
-├<b>🖥️ Developer</b> : <a href=https://t.me/PandaWep>𝗣𝗮𝗻𝗱𝗮𝗪𝗲𝗽</a> 
-├<b>👨‍💻 Programer</b> : <a href=https://t.me/AshutoshGoswami24>𝗔𝘀𝗵𝘂𝘁𝗼𝘀𝗵 𝗚𝗼𝘀𝘄𝗮𝗺𝗶</a>
-├<b>📕 Library</b> : <a href=https://github.com/pyrogram>Pyrogram</a>
-├<b>✏️ Language</b> : <a href=https://www.python.org>Python 3</a>
-├<b>💾 Database</b> : <a href=https://cloud.mongodb.com>Mongo DB</a>
-├<b>📊 Build Version</b> : <a href=https://t.me/AshutoshGoswami24>Rename v4.5.0</a></b>     
+├<b>🤖 Mʏ Nᴀᴍᴇ</b> : {}
+├<b>🖥️ Dᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=https://t.me/PandaWep>𝗣𝗮𝗻𝗱𝗮𝗪𝗲𝗽</a> 
+├<b>👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ</b> : <a href=https://t.me/AshutoshGoswami24>𝗔𝘀𝗵𝘂𝘁𝗼𝘀𝗵 𝗚𝗼𝘀𝘄𝗮𝗺𝗶</a>
+├<b>📕 Lɪʙʀᴀʀʏ</b> : <a href=https://github.com/pyrogram>Pyrogram</a>
+├<b>✏️ Lᴀɴɢᴜᴀɢᴇ</b> : <a href=https://www.python.org>Python 3</a>
+├<b>💾 Dᴀᴛᴀʙᴀsᴇ</b> : <a href=https://cloud.mongodb.com>Mongo DB</a>
+├<b>📊 Bᴜɪʟᴅ Vᴇʀsɪᴏɴ</b> : <a href=https://t.me/AshutoshGoswami24>Rename v4.5.0</a></b>     
 ╰───────────────⍟
 """
 
     HELP_TXT = """
-🌌 <b><u>How To Set Thumbnail</u></b>
+🌌 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ Tʜᴜᴍʙɴᴀɪʟ</u></b>
   
 ➪ /start - Start The Bot And Send Any Photo To Automatically Set Thumbnail.
 ➪ /del_thumb - Use This Command To Delete Your Old Thumbnail.
 ➪ /view_thumb - Use This Command To View Your Current Thumbnail.
 
-📑 <b><u>How To Set Custom Caption</u></b>
+📑 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ</u></b>
 
 ➪ /set_caption - Use This Command To Set A Custom Caption
 ➪ /see_caption - Use This Command To View Your Custom Caption
 ➪ /del_caption - Use This Command To Delete Your Custom Caption
-➪ Example - <code>/set_caption 📕 Name ➠ : {filename}
+➪ Exᴀᴍᴘʟᴇ - <code>/set_caption 📕 Nᴀᴍᴇ ➠ : {filename}
 
-🔗 Size ➠ : {filesize} 
+🔗 Sɪᴢᴇ ➠ : {filesize} 
 
-⏰ Duration ➠ : {duration}</code>
+⏰ Dᴜʀᴀᴛɪᴏɴ ➠ : {duration}</code>
 
-✏️ <b><u>How To Rename A File</u></b>
+✏️ <b><u>Hᴏᴡ Tᴏ Rᴇɴᴀᴍᴇ A Fɪʟᴇ</u></b>
 
-➪ Send Any File And Type New File Name And Select The Format [ Document, Video, Audio ].           
+➪ Sᴇɴᴅ Aɴʏ Fɪʟᴇ Aɴᴅ Tʏᴘᴇ Nᴇᴡ Fɪʟᴇ Nᴀᴍᴇ Aɴᴅ Sᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ Document, Video, Audio ].           
 
 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/AshutoshGoswami24>Developer</a>
 """
 
     PROGRESS_BAR = """<b>\n
-╭━━━━❰ᴘʀᴏɢʀᴇss ʙᴀʀ❱━➣
+╭━━━━❰ Pʀᴏɢʀᴇss Bᴀʀ ❱━➣
 ┣⪼ 🗃️ Sɪᴢᴇ: {1} | {2}
 ┣⪼ ⏳️ Dᴏɴᴇ : {0}%
 ┣⪼ 🚀 Sᴩᴇᴇᴅ: {3}/s
