@@ -43,12 +43,12 @@ class Txt(object):
     ABOUT_TXT = """
 ╭───────────────⍟
 ├<b>🤖 Mʏ Nᴀᴍᴇ</b> : {}
-├<b>🖥️ Dᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=https://t.me/PandaWep>𝗣𝗮𝗻𝗱𝗮𝗪𝗲𝗽</a> 
-├<b>👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ</b> : <a href=https://t.me/AshutoshGoswami24>𝗔𝘀𝗵𝘂𝘁𝗼𝘀𝗵 𝗚𝗼𝘀𝘄𝗮𝗺𝗶</a>
-├<b>📕 Lɪʙʀᴀʀʏ</b> : <a href=https://github.com/pyrogram>Pyrogram</a>
-├<b>✏️ Lᴀɴɢᴜᴀɢᴇ</b> : <a href=https://www.python.org>Python 3</a>
-├<b>💾 Dᴀᴛᴀʙᴀsᴇ</b> : <a href=https://cloud.mongodb.com>Mongo DB</a>
-├<b>📊 Bᴜɪʟᴅ Vᴇʀsɪᴏɴ</b> : <a href=https://t.me/AshutoshGoswami24>Rename v4.5.0</a></b>     
+├<b>🖥️ Dᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=https://t.me/Cute_Boy_Saravana>𝗣𝗮𝗻𝗱𝗮𝗪𝗲𝗽</a> 
+├<b>👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ</b> : <a href=https://t.me/RoyalxMovies>𝗔𝘀𝗵𝘂𝘁𝗼𝘀𝗵 𝗚𝗼𝘀𝘄𝗮𝗺𝗶</a>
+├<b>📕 Lɪʙʀᴀʀʏ</b> : <a href=https://github.com/pyrogram>Pʏʀᴏɢʀᴀᴍ</a>
+├<b>✏️ Lᴀɴɢᴜᴀɢᴇ</b> : <a href=https://www.python.org>Pʏᴛʜᴏɴ 𝟹</a>
+├<b>💾 Dᴀᴛᴀʙᴀsᴇ</b> : <a href=https://cloud.mongodb.com>Mᴏɴɢᴏ Dʙ</a>
+├<b>📊 Bᴜɪʟᴅ Vᴇʀsɪᴏɴ</b> : <a href=https://t.me/PMIOfficials>Rᴇɴᴀᴍᴇ v4.5.0</a></b>     
 ╰───────────────⍟
 """
 
@@ -74,7 +74,7 @@ class Txt(object):
 
 ➪ Sᴇɴᴅ Aɴʏ Fɪʟᴇ Aɴᴅ Tʏᴘᴇ Nᴇᴡ Fɪʟᴇ Nᴀᴍᴇ Aɴᴅ Sᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ Dᴏᴄᴜᴍᴇɴᴛ, Vɪᴅᴇᴏ, Aᴜᴅɪᴏ ].           
 
-Aɴʏ Oᴛʜᴇʀ Hᴇʟᴘ Cᴏɴᴛᴀᴄᴛ :- <a href=https://t.me/AshutoshGoswami24>Dᴇᴠᴇʟᴏᴘᴇʀ</a></b>
+Aɴʏ Oᴛʜᴇʀ Hᴇʟᴘ Cᴏɴᴛᴀᴄᴛ :- <a href=https://t.me/TN69_Links>Dᴇᴠᴇʟᴏᴘᴇʀ</a></b>
 """
 
     PROGRESS_BAR = """<b>\n
@@ -90,9 +90,9 @@ Aɴʏ Oᴛʜᴇʀ Hᴇʟᴘ Cᴏɴᴛᴀᴄᴛ :- <a href=https://t.me/AshutoshG
     DONATE_TXT = """
 <b>Tʜᴀɴᴋs Fᴏʀ Sʜᴏᴡɪɴɢ Iɴᴛᴇʀᴇsᴛ Iɴ Dᴏɴᴀᴛɪᴏɴ! ❤️</b>
 
-𝐈𝐟 𝐘𝐨𝐮 𝐋𝐢𝐤𝐞 𝐌𝐲 𝐁𝐨𝐭𝐬 & 𝐏𝐫𝐨𝐣𝐞𝐜𝐭𝐬, 𝐘𝐨𝐮 𝐂𝐚𝐧 🎁 𝐃𝐨𝐧𝐚𝐭𝐞 𝐌𝐞 𝐀𝐧𝐲 𝐀𝐦𝐨𝐮𝐧𝐭 𝐅𝐫𝐨𝐦 𝟏𝟎𝐌 𝐑𝐬 😁 𝐔𝐩𝐭𝐨 𝐘𝐨𝐮𝐫 𝐂𝐡𝐨𝐢𝐜𝐞.
+<b>Iғ Yᴏᴜ I Lɪᴋᴇ Mʏ Bᴏᴛs Yᴏᴜ Cᴀɴ Pʟᴇᴀsᴇ Sᴜᴘᴘᴏʀᴛ Tʜɪs Cʜᴀɴɴᴇʟ Aɴᴅ Sʜᴀʀᴇ Wɪᴛʜ Yᴏᴜʀ Fʀɪᴇɴᴅs & Fᴀᴍɪʟʏ.</b>
 
-<b>🛍 𝗨𝗣𝗜 𝗜𝗗:</b> `PandaWep@ybl`
+<b>🔗 Cʜᴀɴɴᴇʟ Lɪɴᴋ : @TN69_Links, @UltraQualityMovies, @RoyalxMovies, @UHD4K_Movies, @PMIOfficials</b>
 """
 
 #ʀᴀᴘᴏ ᴄʀᴇᴀᴛᴏʀ https://github.com/AshutoshGoswami24
