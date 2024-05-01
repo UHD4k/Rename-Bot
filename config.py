@@ -42,13 +42,13 @@ class Txt(object):
 #ʀᴀᴘᴏ https://github.com/AshutoshGoswami24/Rename-Bot
     ABOUT_TXT = """
 ╭───────────────⍟
-├<b>🤖 Mʏ Nᴀᴍᴇ</b> : {}
-├<b>🖥️ Dᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=https://t.me/Cute_Boy_Saravana>𝗣𝗮𝗻𝗱𝗮𝗪𝗲𝗽</a> 
-├<b>👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ</b> : <a href=https://t.me/RoyalxMovies>𝗔𝘀𝗵𝘂𝘁𝗼𝘀𝗵 𝗚𝗼𝘀𝘄𝗮𝗺𝗶</a>
-├<b>📕 Lɪʙʀᴀʀʏ</b> : <a href=https://github.com/pyrogram>Pʏʀᴏɢʀᴀᴍ</a>
-├<b>✏️ Lᴀɴɢᴜᴀɢᴇ</b> : <a href=https://www.python.org>Pʏᴛʜᴏɴ 𝟹</a>
-├<b>💾 Dᴀᴛᴀʙᴀsᴇ</b> : <a href=https://cloud.mongodb.com>Mᴏɴɢᴏ Dʙ</a>
-├<b>📊 Bᴜɪʟᴅ Vᴇʀsɪᴏɴ</b> : <a href=https://t.me/PMIOfficials>Rᴇɴᴀᴍᴇ v4.5.0</a></b>     
+├<b>🤖 Mʏ Nᴀᴍᴇ : {}</b>
+├<b>🖥️ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Cute_Boy_Saravana>Ƭɴ69 ×͜× Sᴀʀᴀᴠᴀɴᴀ࿐</a></b>
+├<b>👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/RoyalxMovies>RᴏʏᴀʟxMᴏᴠɪᴇs</a></b>
+├<b>📕 Lɪʙʀᴀʀʏ : <a href=https://github.com/pyrogram>Pʏʀᴏɢʀᴀᴍ</a></b>
+├<b>✏️ Lᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>Pʏᴛʜᴏɴ 𝟹</a></b>
+├<b>💾 Dᴀᴛᴀʙᴀsᴇ : <a href=https://cloud.mongodb.com>Mᴏɴɢᴏ Dʙ</a></b>
+├<b>📊 Bᴜɪʟᴅ Vᴇʀsɪᴏɴ : <a href=https://t.me/PMIOfficials>Rᴇɴᴀᴍᴇ v4.5.0</a></b>  
 ╰───────────────⍟
 """
 
