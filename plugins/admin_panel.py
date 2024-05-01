@@ -28,9 +28,9 @@ async def get_stats(bot, message):
 
 @Client.on_message(filters.command(["restart", "r"]) & filters.user(Config.ADMIN))
 async def restart_bot(bot, message):
-    msg = await bot.send_message(text="🔄 Pʀᴏᴄᴇssᴇs Sᴛᴏᴘᴇᴅ. Bᴏᴛ Is Rᴇsᴛᴀʀᴛɪɴɢ...", chat_id=message.chat.id)       
+    msg = await bot.send_message(text="**🔄 Pʀᴏᴄᴇssᴇs Sᴛᴏᴘᴇᴅ. Bᴏᴛ Is Rᴇsᴛᴀʀᴛɪɴɢ...**", chat_id=message.chat.id)       
     await asyncio.sleep(3)
-    await msg.edit("✅️ Bᴏᴛ Is Rᴇsᴛᴀʀᴛᴇᴅ. Nᴏᴡ Yᴏᴜ Cᴀɴ Usᴇ Mᴇ")
+    await msg.edit("**✅️ Bᴏᴛ Is Rᴇsᴛᴀʀᴛᴇᴅ. Nᴏᴡ Yᴏᴜ Cᴀɴ Usᴇ Mᴇ**")
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
@@ -38,10 +38,10 @@ async def restart_bot(bot, message):
 @Client.on_message(filters.private & filters.command(["ping", "p"]))
 async def ping(_, message):
     start_t = time.time()
-    rm = await message.reply_text("Pinging....")
+    rm = await message.reply_text("**Pɪɴɢɪɴɢ....**")
     end_t = time.time()
     time_taken_s = (end_t - start_t) * 1000
-    await rm.edit(f"Pɪɴɢ 🔥!\n{time_taken_s:.3f} ms")
+    await rm.edit(f"**Pɪɴɢ 🔥!\n{time_taken_s:.3f} ms**")
     return time_taken_s
 
 
