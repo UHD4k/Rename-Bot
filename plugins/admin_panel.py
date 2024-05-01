@@ -19,18 +19,18 @@ async def get_stats(bot, message):
     total_users = await AshutoshGoswami24.total_users_count()
     uptime = time.strftime("%Hh%Mm%Ss", time.gmtime(time.time() - bot.uptime))    
     start_t = time.time()
-    st = await message.reply('**Processing The Details.....**')    
+    st = await message.reply('**Pʀᴏᴄᴇssɪɴɢ Tʜᴇ Dᴇᴛᴀɪʟs.....**')    
     end_t = time.time()
     time_taken_s = (end_t - start_t) * 1000
-    await st.edit(text=f"**--Bot Status--** \n\n**⌚ Bot Uptime:** `{uptime}` \n**🐌 Current Ping:** `{time_taken_s:.3f} ms` \n**👭 Total Users:** `{total_users}`")
+    await st.edit(text=f"**--Bᴏᴛ Sᴛᴀᴛᴜs--** \n\n**⌚ Bᴏᴛ UᴘTɪᴍᴇ :** `{uptime}` \n**🐌 Cᴜʀʀᴇɴᴛ Pɪɴɢ :** `{time_taken_s:.3f} ms` \n**👭 Tᴏᴛᴀʟ Usᴇʀs :** `{total_users}`")
 
 
 
 @Client.on_message(filters.command(["restart", "r"]) & filters.user(Config.ADMIN))
 async def restart_bot(bot, message):
-    msg = await bot.send_message(text="🔄 Processes Stoped. Bot Is Restarting...", chat_id=message.chat.id)       
+    msg = await bot.send_message(text="🔄 Pʀᴏᴄᴇssᴇs Sᴛᴏᴘᴇᴅ. Bᴏᴛ Is Rᴇsᴛᴀʀᴛɪɴɢ...", chat_id=message.chat.id)       
     await asyncio.sleep(3)
-    await msg.edit("✅️ Bot Is Restarted. Now You Can Use Me")
+    await msg.edit("✅️ Bᴏᴛ Is Rᴇsᴛᴀʀᴛᴇᴅ. Nᴏᴡ Yᴏᴜ Cᴀɴ Usᴇ Mᴇ")
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
@@ -41,17 +41,17 @@ async def ping(_, message):
     rm = await message.reply_text("Pinging....")
     end_t = time.time()
     time_taken_s = (end_t - start_t) * 1000
-    await rm.edit(f"Ping 🔥!\n{time_taken_s:.3f} ms")
+    await rm.edit(f"Pɪɴɢ 🔥!\n{time_taken_s:.3f} ms")
     return time_taken_s
 
 
 
-@Client.on_message(filters.command(["broadcast", "b"]) & filters.user(Config.ADMIN) & filters.reply)
+@Client.on_message(filters.command(["Bʀᴏᴀᴅᴄᴀsᴛ", "b"]) & filters.user(Config.ADMIN) & filters.reply)
 async def broadcast_handler(bot: Client, m: Message):
-    await bot.send_message(Config.LOG_CHANNEL, f"{m.from_user.mention} or {m.from_user.id} Is Started The Broadcast......")
+    await bot.send_message(Config.LOG_CHANNEL, f"{m.from_user.mention} or {m.from_user.id} Is Sᴛᴀʀᴛᴇᴅ Tʜᴇ Bʀᴏᴀᴅᴄᴀsᴛ......")
     all_users = await AshutoshGoswami24.get_all_users()
     broadcast_msg = m.reply_to_message
-    sts_msg = await m.reply_text("Broadcast Started..!") 
+    sts_msg = await m.reply_text("Bʀᴏᴀᴅᴄᴀsᴛ Sᴛᴀʀᴛᴇᴅ..!") 
     done = 0
     failed = 0
     success = 0
@@ -67,9 +67,9 @@ async def broadcast_handler(bot: Client, m: Message):
            await AshutoshGoswami24.delete_user(user['_id'])
         done += 1
         if not done % 20:
-           await sts_msg.edit(f"**Broadcast In Progress:** \n\nTotal Users {total_users} \nCompleted: {done} / {total_users}\nSuccess: {success}\nFailed: {failed}")
+           await sts_msg.edit(f"**Bʀᴏᴀᴅᴄᴀsᴛ Iɴ Pʀᴏɢʀᴇss :** \n\nTᴏᴛᴀʟ Usᴇʀs {total_users} \nCᴏᴍᴘʟᴇᴛᴇᴅ : {done} / {total_users}\nSᴜᴄᴄᴇss : {success}\nFᴀɪʟᴇᴅ : {failed}")
     completed_in = datetime.timedelta(seconds=int(time.time() - start_time))
-    await sts_msg.edit(f"**Broadcast Completed:** \n\nCompleted In `{completed_in}`.\n\nTotal Users {total_users}\nCompleted: {done} / {total_users}\nSuccess: {success}\nFailed: {failed}")
+    await sts_msg.edit(f"**Bʀᴏᴀᴅᴄᴀsᴛ Cᴏᴍᴘʟᴇᴛᴇᴅ :** \n\nCᴏᴍᴘʟᴇᴛᴇᴅ Iɴ `{completed_in}`.\n\nTᴏᴛᴀʟ Usᴇʀs {total_users}\nCᴏᴍᴘʟᴇᴛᴇᴅ : {done} / {total_users}\nSᴜᴄᴄᴇss : {success}\nFᴀɪʟᴇᴅ : {failed}")
            
 async def send_msg(user_id, message):
     try:
@@ -79,13 +79,13 @@ async def send_msg(user_id, message):
         await asyncio.sleep(e.value)
         return send_msg(user_id, message)
     except InputUserDeactivated:
-        logger.info(f"{user_id} : Deactivated")
+        logger.info(f"{user_id} : Dᴇᴀᴄᴛɪᴠᴀᴛᴇᴅ")
         return 400
     except UserIsBlocked:
-        logger.info(f"{user_id} : Blocked The Bot")
+        logger.info(f"{user_id} : Bʟᴏᴄᴋᴇᴅ Tʜᴇ Bᴏᴛ")
         return 400
     except PeerIdInvalid:
-        logger.info(f"{user_id} : User ID Invalid")
+        logger.info(f"{user_id} : Usᴇʀ ɪᴅ Iɴᴠᴀʟɪᴅ")
         return 400
     except Exception as e:
         logger.error(f"{user_id} : {e}")
