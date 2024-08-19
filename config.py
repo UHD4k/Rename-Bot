@@ -19,7 +19,8 @@ class Config(object):
     FORCE_SUB   = os.environ.get("FORCE_SUB", "TN69Links") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001891110437"))
 
-    # wes response configuration     
+    # wes response configuration  
+    PORT = int(os.environ.get("PORT", ""))
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
 
 #ʀᴀᴘᴏ ᴄʀᴇᴀᴛᴏʀ https://github.com/AshutoshGoswami24
