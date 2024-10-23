@@ -16,7 +16,7 @@ class Config(object):
     ADMIN = int(os.environ.get("ADMIN", "1790775725"))
 
     # channels logs
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "TN69Links") 
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "LCUxCloud") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001891110437"))
 
     # wes response configuration  
@@ -45,7 +45,7 @@ class Txt(object):
 ╭───────────────⍟
 ├<b>🤖 Mʏ Nᴀᴍᴇ : {}</b>
 ├<b>🖥️ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Cute_Boy_Saravana>Ƭɴ69 ×͜× Sᴀʀᴀᴠᴀɴᴀ࿐</a></b>
-├<b>👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/RoyalxMovies>RᴏʏᴀʟxMᴏᴠɪᴇs</a></b>
+├<b>👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/RoyalxMoviesOfficial>RᴏʏᴀʟxMᴏᴠɪᴇsOfficial</a></b>
 ├<b>📕 Lɪʙʀᴀʀʏ : <a href=https://github.com/pyrogram>Pʏʀᴏɢʀᴀᴍ</a></b>
 ├<b>✏️ Lᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>Pʏᴛʜᴏɴ 𝟹</a></b>
 ├<b>💾 Dᴀᴛᴀʙᴀsᴇ : <a href=https://cloud.mongodb.com>Mᴏɴɢᴏ Dʙ</a></b>
@@ -84,7 +84,7 @@ Aɴʏ Oᴛʜᴇʀ Hᴇʟᴘ Cᴏɴᴛᴀᴄᴛ :- <a href=https://t.me/Cute_Boy_
 ┣⪼ ⏳️ Dᴏɴᴇ : {0}%
 ┣⪼ 🚀 Sᴩᴇᴇᴅ: {3}/s
 ┣⪼ ⏰️ Eᴛᴀ: {4}
-┣⪼ 🥺 Pʟᴇᴀsᴇ Jᴏɪɴ : @TN69_Links
+┣⪼ 🥺 Pʟᴇᴀsᴇ Jᴏɪɴ : @PMIxOfficials
 ╰━━━━━━━━━━━━━━━➣ </b>"""
 #ʀᴀᴘᴏ ᴄʀᴇᴀᴛᴏʀ https://github.com/AshutoshGoswami24
 #ʀᴀᴘᴏ https://github.com/AshutoshGoswami24/Rename-Bot
